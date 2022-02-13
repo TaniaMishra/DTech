@@ -1,5 +1,8 @@
+/* Navbar Styles */
 .navbar {
     background-color: #734B88;
+    opacity: 0.8;
+    position: fixed;
 }
 #navbar-logo {
     width: 125px;
@@ -11,4 +14,43 @@
 }
 .nav-link:hover {
     color: #AFAFB3;
+}
+
+/* Home Page Styles */
+#home-page {
+    background-image: url("images/homePageImage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-size: 100%;
+    background-position: fixed;*/
+}
+#title {
+    margin: 100px 0px 100px 0px;
+    color: white;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 150px;
+    text-align: center;
+}
+#flower-motto {
+    margin: 50px 0px 0px 0px;
+    color: white;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+#motto-subheading {
+    margin: 0px 0px 40px 800px;
+    color: white;
+    font-family: cursive;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+}
+.dark-purple {
+    background-color: #734B88
+}
+.light-purple {
+    background-color: #967EA3
 }
