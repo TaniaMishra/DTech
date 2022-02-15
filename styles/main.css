@@ -1,0 +1,37 @@
+/* Navbar Styles */
+.navbar {
+    background-color: #734B88;
+    opacity: 0.8;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+#navbar-logo {
+    width: 125px;
+    margin: 10px 100px 10px 50px;
+}
+.nav-link {
+    color: white;
+    margin-right: 10px;
+}
+.nav-link:hover {
+    color: #AFAFB3;
+}
+
+/* Contact Us Styles */
+.contact-bg {
+    background-color: #4A4C70;
+}
+#contact-title {
+    margin-top: 30px;
+    margin-left: 20px;
+    font-family: Impact;
+    font-size: 35px;
+}
+#contact-message {
+    margin-bottom: 50px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}

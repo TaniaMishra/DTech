@@ -1,34 +1,25 @@
-/* Navbar Styles */
-.navbar {
-    background-color: #734B88;
-    opacity: 0.8;
-    position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
-}
-#navbar-logo {
-    width: 125px;
-    margin: 10px 100px 10px 50px;
-}
-.nav-link {
-    color: white;
-    margin-right: 10px;
-}
-.nav-link:hover {
-    color: #AFAFB3;
-}
-
 /* Home Page Styles */
 #home-page {
-    background-image: url("images/homePageImage.png");
+    background-image: url("../images/homePageImage.png");
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
     background-attachment: fixed;
-    /*background-size: 100%;
-    background-position: fixed;*/
+
 }
+.link {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #DC5F53;
+    font-size: 17px;
+}
+.link:hover {
+    color: #AFAFB3;
+}
+.break-pt {
+    height: 110px;
+}
+
+/* Title */
 #title {
     margin: 100px 0px 100px 0px;
     font-family: cursive;
@@ -36,6 +27,8 @@
     font-size: 150px;
     text-align: center;
 }
+
+/* Mottos */
 #flower-motto {
     margin: 50px 0px 0px 0px;
     font-family: cursive;
@@ -77,17 +70,8 @@
 #motto-line4 {
     font-size: 50px;
 }
-.link {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #DC5F53;
-    font-size: 17px;
-}
-.link:hover {
-    color: #AFAFB3;
-}
-.break-pt {
-    height: 110px;
-}
+
+/* Upcoming Programs */
 .upcoming-bg {
     background-color: #D5C5DB;
 }
@@ -136,21 +120,4 @@
     width: 30px;
     margin-left: 90%;
     margin-bottom: 35px;
-}
-
-/* Contact Us Styles */
-.contact-bg {
-    background-color: #4A4C70;
-}
-#contact-title {
-    margin-top: 30px;
-    margin-left: 20px;
-    font-family: Impact;
-    font-size: 35px;
-}
-#contact-message {
-    margin-bottom: 50px;
-    margin-left: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
 }
