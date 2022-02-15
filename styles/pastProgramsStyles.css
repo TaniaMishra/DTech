@@ -1,0 +1,57 @@
+/* Past Programs Page Styles */
+#past-programs {
+    background-image: url("../images/codeBackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    background-attachment: fixed;
+}
+.break-pt {
+    height: 110px;
+}
+
+/* Title */
+#title {
+    margin: 150px 0px 100px 0px;
+    font-family: Impact;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+/* Main Background */
+.main-bg {
+    background-color: #D5C5DB;
+}
+
+/* Program Description Backgrounds */
+.program-bg {
+    background-color: #A492AE;
+}
+.ceremony-bg {
+    background-color: #734B88;
+}
+
+/* Programs */
+.program-title {
+    font-family: Impact;
+    font-size: 25px;
+    color: #4A4C70;
+    margin: 10% 10% 5px 10%;
+}
+.program-subheading {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 0px 10% 0px 10%;
+    margin-bottom: 0px;
+    color: #4A4C70;
+}
+.program-description {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-top: 5px;
+    margin: 5px 10% 10% 10%;
+}
+.ceremony-link {
+    text-align: center;
+}

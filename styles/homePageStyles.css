@@ -7,14 +7,6 @@
     background-attachment: fixed;
 
 }
-.link {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #DC5F53;
-    font-size: 17px;
-}
-.link:hover {
-    color: #AFAFB3;
-}
 .break-pt {
     height: 110px;
 }
