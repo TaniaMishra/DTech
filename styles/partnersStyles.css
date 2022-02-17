@@ -1,13 +1,10 @@
-/* Our Mission Page Styles */
-#our-mission {
+/* Our Partners Page Styles */
+#partners {
     background-image: url("../images/codeBackground.png");
     background-repeat: no-repeat;
     background-size: cover;
     color: black;
     background-attachment: fixed;
-}
-.break-pt {
-    height: 110px;
 }
 
 /* Title */
@@ -24,15 +21,7 @@
     background-color: #D5C5DB;
 }
 
-/* Program Description Backgrounds */
-.program-bg {
-    background-color: #A492AE;
-}
-.ceremony-bg {
-    background-color: #734B88;
-}
-
-/* About Us */
+/* Partners */
 .name {
     font-family: Impact;
     font-size: 35px;
