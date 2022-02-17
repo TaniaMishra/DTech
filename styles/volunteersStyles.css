@@ -1,0 +1,52 @@
+/* Volunteers Page Styles */
+#volunteers {
+    background-image: url("../images/codeBackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    background-attachment: fixed;
+}
+.break-pt {
+    height: 110px;
+}
+
+/* Title */
+#title {
+    margin: 150px 0px 100px 0px;
+    font-family: Impact;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+#sub-title {
+    font-family: Impact;
+    font-size: 35px;
+    margin: 5% 0px 5px 0px;
+    color: #4A4C70;
+}
+
+/* Main Background */
+.main-bg {
+    background-color: #D5C5DB;
+}
+
+/* Volunteers */
+.name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin: 10% 0px 0px 0px;
+}
+.subheading {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 5px;
+    margin: 5px 10% 10% 0px;
+}
+.picture {
+    margin-right: 10%;
+    margin-left: 10%;
+    width: 80%;
+}
