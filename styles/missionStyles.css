@@ -6,9 +6,6 @@
     color: black;
     background-attachment: fixed;
 }
-.break-pt {
-    height: 110px;
-}
 
 /* Title */
 #title {
@@ -22,14 +19,6 @@
 /* Main Background */
 .main-bg {
     background-color: #D5C5DB;
-}
-
-/* Program Description Backgrounds */
-.program-bg {
-    background-color: #A492AE;
-}
-.ceremony-bg {
-    background-color: #734B88;
 }
 
 /* About Us */
@@ -58,7 +47,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
     margin-top: 5px;
-    margin: 10px 10% 10% 0px;
+    margin: 10px 10% 0px 0px;
 }
 #logo {
     width: 100%;
