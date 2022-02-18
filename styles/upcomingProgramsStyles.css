@@ -48,6 +48,9 @@
     font-size: 30px;
     margin: 2% 2% 2% 2%;
 }
+#program1-info, #program2-info, #program3-info {
+    display: none;
+}
 
 /* Programs */
 .program-title {
