@@ -18,16 +18,18 @@
 .nav-link:hover {
     color: #AFAFB3;
 }
-#search-btn {
-    color: #DC5F53;
-    border-style: solid;
-    border-color: #DC5F53;
-}
-#search-btn:hover {
+#donate-btn {
+    margin-right: 50px;
+    margin-top: 0px;
     color: white;
+    background-color: #DC5F53;
     border-style: solid;
     border-color: #DC5F53;
-    background-color: #DC5F53;
+    /* margin-left: 200%; */
+}
+#donate-btn:hover {
+    font-variant: small-caps;
+    font-weight: bold;
 }
 #menu-icon {
     width: 50px;
