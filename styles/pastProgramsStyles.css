@@ -7,15 +7,6 @@
     background-attachment: fixed;
 }
 
-/* Title */
-#title {
-    margin: 150px 0px 100px 0px;
-    font-family: Impact;
-    font-size: 50px;
-    text-align: center;
-    color: white;
-}
-
 /* Main Background */
 .main-bg {
     background-color: #D5C5DB;

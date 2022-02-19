@@ -33,6 +33,16 @@
     width: 50px;
 }
 
+/* Titles */
+#page-title {
+    margin: 150px 0px 100px 0px;
+    font-family: Optima;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
 /* Contact Us Styles */
 .contact-bg {
     background-color: #4A4C70;
