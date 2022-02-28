@@ -14,6 +14,7 @@
     <nav class="navbar fixed-top navbar-expand-lg">
         <a class="navbar-brand" href="../index.html"><img src="../images/logo.png" id="navbar-logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="../images/menuIcon.png" id="menu-icon">
             <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -27,7 +28,7 @@
                         About Us
                     </p>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="mission.html">Our Mission</a>
+                        <a class="dropdown-item" href="mission.html">Our Mission and Vision</a>
                         <a class="dropdown-item" href="boardMembers.html">Board Members</a>
                         <a class="dropdown-item" href="partners.html">Partners</a>
                         <a class="dropdown-item" href="volunteers.html">Volunteers</a>
@@ -42,14 +43,16 @@
                 <li class="nav-item">
                     <a class="nav-link" href="contactUs.html">Contact</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Donate</a>
-                </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
+            <span class="navbar-text">
+                <a href="#" target="_blank">
+                    <button class="btn my-2 my-sm-0" id="donate-btn">Donate</button>
+                </a>
+            </span>
+            <!-- <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
+                <button class="btn my-2 my-sm-0" id="search-btn" type="submit">Search</button>
+            </form> -->
         </div>
     </nav>
 
@@ -57,8 +60,8 @@
     <div class="container.fluid">
         <div class="row" style="margin-top: 100px;">
             <div class="col-md-2"></div>
-            <div class="col-md-8" id="title">
-                OUR MISSION
+            <div class="col-md-8" id="page-title">
+                OUR MISSION AND VISION
             </div>
         </div>
         <div class="row main-bg">
@@ -73,11 +76,11 @@
                 <p class="motto">From this stem, a flower blooms</p>
                 <p class="motto-subheading">- DTech Official Motto</p>
                 <p class="about-description">
-                    Divas in Technology (DTech) is a platform created by Tania Mishra to expand the outreach of computer science to younger girls. The goal of this platform is to host multiple computer science workshops and programs for girls of all ages, ethnicities, and backgrounds. Our mission is to help inspire girls to close the gender gap in technology-related career fields. We want to help younger girls gain resources early on by hosting workshops led by high school and college students who are intending to pursue a career in a technology field. Networking opportunities will also be included through guest speakers who are currently in the workforce.
+                    Divas in Technology (DTech) is a 501(c)(3) nonprofit organization working to expand the outreach of computer science to younger girls. By hosting programs that teach various computer science skills, we hope to increase interest in tech-related fields and increase enrollment in computer science courses in school. DTech is run by high school and college students in Wisconsin who are passionate about helping girls get access to tech opportunities and mentorship early on. Divas in Technology is focused on empowering girls in technology and changing the future.
                 </p>
             </div>
             <div class="col-md-3">
-                <img src="../images/logo.png" id="logo">
+                <img src="../images/logoBlack.png" id="logo">
             </div>
         </div>
         <div class="row main-bg" style="padding-bottom: 10%;">
@@ -85,13 +88,13 @@
             <div class="col-md-4">
                 <p class="about-title">Our Mission</p>
                 <p class="about-description">
-                    Divas in Technology (DTech) is a platform created by Tania Mishra to expand the outreach of computer science to younger girls. The goal of this platform is to host multiple computer science workshops and programs for girls of all ages, ethnicities, and backgrounds. Our mission is to help inspire girls to close the gender gap in technology-related career fields. We want to help younger girls gain resources early on by hosting workshops led by high school and college students who are intending to pursue a career in a technology field. Networking opportunities will also be included through guest speakers who are currently in the workforce.
+                    DTech hosts tech-related workshops, programs, and networking opportunities for girls of all ages, ethnicities, and backgrounds.
                 </p>
             </div>
             <div class="col-md-4">
                 <p class="about-title">Our Vision</p>
                 <p class="about-description">
-                    Divas in Technology (DTech) is a platform created by Tania Mishra to expand the outreach of computer science to younger girls. The goal of this platform is to host multiple computer science workshops and programs for girls of all ages, ethnicities, and backgrounds. Our mission is to help inspire girls to close the gender gap in technology-related career fields. We want to help younger girls gain resources early on by hosting workshops led by high school and college students who are intending to pursue a career in a technology field. Networking opportunities will also be included through guest speakers who are currently in the workforce.
+                    With females making up only 23% of computer science students in Wisconsin, DTech aims to increase that number to 50% by providing resources, mentorship, and a community to young girls interested in the tech field.
                 </p>
             </div>
         </div>
@@ -101,19 +104,23 @@
         <div class="row contact-bg">
             <div class="col-md-2"></div>
             <div class="col-md-8">
-                <p id="contact-title">GET IN TOUCH WITH DTECH</p>
-                <!-- Add line break here -->
+                <p id="contact-title">FOLLOW US ON SOCIAL MEDIA</p>
+                <p id="contact-message">Follow DTech on our social media platforms for updates!</p>
             </div>
         </div>
         <div class="row contact-bg">
             <div class="col-md-2"></div>
-            <div class="col-md-4">
-                <p id="contact-message">Get in touch with us through our social media platforms or contact president Tania Mishra with any questions.</p>
-            </div>
-            <div class="col-md-1"></div>
-            <div class="col-md-3">
-                <a href="#" class="link" id="contact-tania">CONTACT TANIA MISHRA</a>
-                <!-- Add Instagram and LinkedIn links here -->
+            <div class="col-md-8">
+                <a href="https://www.linkedin.com/company/divas-in-technology" target="_blank" class="link">
+                    <button class="social-media">
+                        LinkedIn
+                    </button>
+                </a>
+                <a href="https://www.instagram.com/tech.divas/" target="_blank" class="link">
+                    <button class="social-media">
+                        Instagram
+                    </button>
+                </a>
             </div>
         </div>
     </div>

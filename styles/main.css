@@ -18,6 +18,32 @@
 .nav-link:hover {
     color: #AFAFB3;
 }
+#donate-btn {
+    margin-right: 50px;
+    margin-top: 0px;
+    color: white;
+    background-color: #DC5F53;
+    border-style: solid;
+    border-color: #DC5F53;
+    /* margin-left: 200%; */
+}
+#donate-btn:hover {
+    font-variant: small-caps;
+    font-weight: bold;
+}
+#menu-icon {
+    width: 50px;
+}
+
+/* Titles */
+#page-title {
+    margin: 150px 0px 100px 0px;
+    font-family: Optima;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
 
 /* Contact Us Styles */
 .contact-bg {
@@ -26,17 +52,38 @@
 #contact-title {
     margin-top: 30px;
     margin-left: 20px;
-    font-family: Impact;
+    font-family: Optima;
+    font-weight: bold;
     font-size: 35px;
+    color: white;
 }
 #contact-message {
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     margin-left: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
+    color: white;
 }
 .break-pt {
     height: 110px;
+}
+.social-media {
+    text-align: center;
+    margin-left: 15%;
+    margin-bottom: 25px;
+    height: 50px;
+    width: 25%;
+    background-color: #4A4C70;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #DC5F53;
+    color: #DC5F53;
+    display: inline;
+}
+.social-media:hover {
+    background-color: #DC5F53;
+    color: white;
 }
 
 /* Links */
@@ -47,4 +94,5 @@
 }
 .link:hover {
     color: #AFAFB3;
+    text-decoration: none;
 }

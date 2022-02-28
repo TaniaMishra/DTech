@@ -7,15 +7,6 @@
     background-attachment: fixed;
 }
 
-/* Title */
-#title {
-    margin: 150px 0px 100px 0px;
-    font-family: Impact;
-    font-size: 50px;
-    text-align: center;
-    color: white;
-}
-
 /* Main Background */
 .main-bg {
     background-color: #D5C5DB;
@@ -23,7 +14,8 @@
 
 /* Contact Info */
 .subheading {
-    font-family: Impact;
+    font-family: Optima;
+    font-weight: bold;
     font-size: 35px;
     margin: 5% 0px 5px 0px;
     color: #4A4C70;
@@ -34,6 +26,9 @@
     margin-top: 5px;
     margin: 10px 10% 10px 0px;
 }
-#email {
-    font-size: 20px;
+#contact-form {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    height: 950px;
 }

@@ -14,6 +14,7 @@
     <nav class="navbar fixed-top navbar-expand-lg">
         <a class="navbar-brand" href="../index.html"><img src="../images/logo.png" id="navbar-logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="../images/menuIcon.png" id="menu-icon">
             <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -27,7 +28,7 @@
                         About Us
                     </p>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="mission.html">Our Mission</a>
+                        <a class="dropdown-item" href="mission.html">Our Mission and Vision</a>
                         <a class="dropdown-item" href="boardMembers.html">Board Members</a>
                         <a class="dropdown-item" href="partners.html">Partners</a>
                         <a class="dropdown-item" href="volunteers.html">Volunteers</a>
@@ -42,14 +43,16 @@
                 <li class="nav-item">
                     <a class="nav-link" href="contactUs.html">Contact</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Donate</a>
-                </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
+            <span class="navbar-text">
+                <a href="#" target="_blank">
+                    <button class="btn my-2 my-sm-0" id="donate-btn">Donate</button>
+                </a>
+            </span>
+            <!-- <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
+                <button class="btn my-2 my-sm-0" id="search-btn" type="submit">Search</button>
+            </form> -->
         </div>
     </nav>
 
@@ -57,7 +60,7 @@
     <div class="container.fluid">
         <div class="row" style="margin-top: 100px;">
             <div class="col-md-2"></div>
-            <div class="col-md-8" id="title">
+            <div class="col-md-8" id="page-title">
                 PARTNERS
             </div>
         </div>
@@ -103,19 +106,23 @@
         <div class="row contact-bg">
             <div class="col-md-2"></div>
             <div class="col-md-8">
-                <p id="contact-title">GET IN TOUCH WITH DTECH</p>
-                <!-- Add line break here -->
+                <p id="contact-title">FOLLOW US ON SOCIAL MEDIA</p>
+                <p id="contact-message">Follow DTech on our social media platforms for updates!</p>
             </div>
         </div>
         <div class="row contact-bg">
             <div class="col-md-2"></div>
-            <div class="col-md-4">
-                <p id="contact-message">Get in touch with us through our social media platforms or contact president Tania Mishra with any questions.</p>
-            </div>
-            <div class="col-md-1"></div>
-            <div class="col-md-3">
-                <a href="#" class="link" id="contact-tania">CONTACT TANIA MISHRA</a>
-                <!-- Add Instagram and LinkedIn links here -->
+            <div class="col-md-8">
+                <a href="https://www.linkedin.com/company/divas-in-technology" target="_blank" class="link">
+                    <button class="social-media">
+                        LinkedIn
+                    </button>
+                </a>
+                <a href="https://www.instagram.com/tech.divas/" target="_blank" class="link">
+                    <button class="social-media">
+                        Instagram
+                    </button>
+                </a>
             </div>
         </div>
     </div>
