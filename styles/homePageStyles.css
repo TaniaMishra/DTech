@@ -1,11 +1,13 @@
 /* Home Page Styles */
 #home-page {
-    background-image: url("../images/homePageImage.png");
+    /* background-image: url("../images/homePageImage.png"); */
+    background-image: url("../images/codeBackground.png");
+
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
     background-attachment: fixed;
-
+    /* background-color: #D5C5DB; */
 }
 
 /* Title */
