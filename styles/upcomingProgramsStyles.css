@@ -36,15 +36,24 @@
 .program-dropdown {
     margin-top: 25px;
     border-style: solid;
-    border-color: black;
+    border-color: #734B88;
     border-width: 2px;
     border-radius: 8px;
+    color: white;
+    background-color:#967EA3;
 }
 .dropdown-title {
     font-family: Optima;
     font-weight: bold;
     font-size: 30px;
     margin: 2% 2% 2% 2%;
+}
+#arrow1, #arrow2, #arrow3 {
+    height: 50px;
+    margin-top: 15px;
+}
+.program-dropdown:hover {
+    background-color: #734B88;
 }
 #program1-info, #program2-info, #program3-info {
     display: none;

@@ -1,11 +1,13 @@
 /* Home Page Styles */
 #home-page {
-    background-image: url("../images/homePageImage.png");
+    /* background-image: url("../images/homePageImage.png"); */
+    background-image: url("../images/codeBackground.png");
+
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
     background-attachment: fixed;
-
+    /* background-color: #D5C5DB; */
 }
 
 /* Title */
@@ -19,18 +21,15 @@
 
 /* Mottos */
 #flower-motto {
-    margin: 50px 0px 0px 0px;
+    margin: 50px 0px 20px 0px;
     font-family: cursive;
     font-weight: bold;
     font-size: 45px;
     text-align: center;
 }
-#motto-subheading {
-    margin: 0px 0px 40px 800px;
-    font-family: cursive;
-    font-weight: bold;
-    font-style: italic;
-    font-size: 20px;
+#flower-divider {
+    margin-bottom: 40px;
+    width: 100%;
 }
 .motto1-bg {
     background-color: #734B88
@@ -59,6 +58,11 @@
 }
 #motto-line4 {
     font-size: 50px;
+}
+#down-arrow {
+    width: 30%;
+    margin-left: 45%;
+    margin-right: 45%;
 }
 
 /* Upcoming Programs */
