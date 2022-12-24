@@ -17,7 +17,7 @@
     background-color: #7D5692;
     border-radius: 30px;
     padding: 30px 40px 30px 40px;
-    border: solid 5px purple;
+    border: solid 3px white;
 }
 .box-title {
     font-family: Optima;
@@ -34,6 +34,9 @@
     background-color: #DC5F53;
     border-style: solid;
     border-color: #DC5F53;
+}
+#link-btn:hover {
+    border: solid 2px white;
 }
 
 /* Title */
@@ -153,6 +156,10 @@
     border: solid 1px white;
     padding: 10px 10px 10px 10px;
     margin: 10px 10px 10px 10px;
+}
+.upcoming-box:hover {
+    background-color: white;
+    color: #967EA3;
 }
 .program-title {
     font-family: Optima;
