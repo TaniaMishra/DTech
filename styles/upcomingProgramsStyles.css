@@ -1,6 +1,7 @@
 /* Upcoming Programs Page Styles */
 #programs {
-    background-image: url("../images/codeBackground.png");
+    /* background-image: url("../images/codeBackground.png"); */
+    background-image: linear-gradient(to bottom right, purple, #734B88, #D5C5DB);
     background-repeat: no-repeat;
     background-size: cover;
     color: black;
@@ -13,8 +14,10 @@
     font-family: Optima;
     font-weight: bold;
     font-size: 35px;
-    margin: 5% 0px 0px 0px;
-    color: #4A4C70;
+    /* margin: 5% 0px 0px 0px;
+    color: #4A4C70; */
+    margin: 20px 0px 0px 0px;
+    color: white;
     text-align: center;
 }
 
@@ -36,7 +39,8 @@
 .program-dropdown {
     margin-top: 25px;
     border-style: solid;
-    border-color: #734B88;
+    /* border-color: #734B88; */
+    border-color: white;
     border-width: 2px;
     border-radius: 8px;
     color: white;
@@ -64,26 +68,50 @@
     font-family: Optima;
     font-weight: bold;
     font-size: 25px;
-    color: #4A4C70;
-    margin: 5% 5% 5px 5%;
+    /* color: #4A4C70; */
+    color: white;
+    /* margin: 5% 5% 5px 5%; */
+    margin: 30px 20px 5px 20px;
 }
 .program-subheading {
     font-family: Optima;
     font-weight: bold;
     font-size: 17px;
-    margin: 0px 5% 0px 5%;
-    margin-bottom: 0px;
-    color: #4A4C70;
+    /* margin: 0px 5% 0px 5%; */
+    margin: 0px 20px 0px 20px;
+    /* margin-bottom: 0px; */
+    /* color: #4A4C70; */
+    color: white;
 }
 .program-description {
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: Optima;
     font-size: 17px;
-    margin-top: 5px;
-    margin: 5px 5% 5px 5%;
+    /* margin-top: 5px;
+    margin: 5px 5% 5px 5%; */
+    margin: 5px 20px 5px 20px;
+    color: white;
 }
 .register {
     margin: 5px 5% 5% 5%;
 }
 #break-pt2 {
     height: 50px;
+}
+
+.program-box {
+    background-color: #7D5692;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    border: solid 1px white;
+}
+#link-btn {
+    margin: 10px 20px;
+    color: white;
+    background-color: #DC5F53;
+    border-style: solid;
+    border-color: #DC5F53;
+}
+#link-btn:hover {
+    border: solid 2px white;
 }
