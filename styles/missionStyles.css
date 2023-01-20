@@ -1,6 +1,7 @@
 /* Our Mission Page Styles */
 #our-mission {
-    background-image: url("../images/codeBackground.png");
+    /* background-image: url("../images/codeBackground.png"); */
+    background-image: linear-gradient(to bottom right, purple, #734B88, #D5C5DB);
     background-repeat: no-repeat;
     background-size: cover;
     color: black;
