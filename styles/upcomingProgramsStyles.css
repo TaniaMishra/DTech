@@ -1,6 +1,5 @@
 /* Upcoming Programs Page Styles */
 #programs {
-    /* background-image: url("../images/codeBackground.png"); */
     background-image: linear-gradient(to bottom right, purple, #734B88, #D5C5DB);
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,8 +13,6 @@
     font-family: Optima;
     font-weight: bold;
     font-size: 35px;
-    /* margin: 5% 0px 0px 0px;
-    color: #4A4C70; */
     margin: 20px 0px 0px 0px;
     color: white;
     text-align: center;
