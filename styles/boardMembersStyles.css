@@ -1,6 +1,6 @@
 /* Board Members Page Styles */
 #board {
-    background-image: url("../images/codeBackground.png");
+    background-image: linear-gradient(to bottom right, purple, #734B88, #D5C5DB);
     background-repeat: no-repeat;
     background-size: cover;
     color: black;
@@ -38,5 +38,43 @@
     margin: 10px 10% 10px 0px;
 }
 .profile-pic {
-    width: 80%;
+    height: 80%;
+    position: absolute;
+    margin-top: 10%;
+}
+.picture-box {
+    position: relative;
+    height: auto;
+}
+.box {
+    background-color: #7D5692;
+    border-radius: 30px;
+    padding: 30px 40px 30px 40px;
+    border: solid 3px white;
+    color: white;
+    /* margin-bottom: 25px; */
+}
+.box-title {
+    font-family: Optima;
+    font-weight: bold;
+    font-size: 40px;
+}
+.box-subheading {
+    font-family: Optima;
+    font-weight: bold;
+    font-size: 25px;
+}
+.box-paragraph {
+    font-family: Optima;
+    font-size: 17px;
+}
+#link-btn {
+    margin: 10px auto;
+    color: white;
+    background-color: #DC5F53;
+    border-style: solid;
+    border-color: #DC5F53;
+}
+#link-btn:hover {
+    border: solid 2px white;
 }
