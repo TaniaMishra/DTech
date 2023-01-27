@@ -150,14 +150,17 @@
     margin-bottom: 35px;
 }
 
-.upcoming-box {
+#upcoming-box {
     background-color: #967EA3;
     border-radius: 10px;
     border: solid 1px white;
     padding: 10px 10px 10px 10px;
     margin: 10px 10px 10px 10px;
+    cursor: pointer;
+    position: relative;
+    color: white
 }
-.upcoming-box:hover {
+#upcoming-box:hover {
     background-color: white;
     color: #967EA3;
 }
