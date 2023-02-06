@@ -1,7 +1,8 @@
 /* Home Page Styles */
 #home-page {
     /* background-image: url("../images/homePageImage.png"); */
-    background-image: url("../images/codeBackground.png");
+    /* background-image: url("../images/codeBackground.png"); */
+    background-image: linear-gradient(to bottom right, purple, #734B88, #D5C5DB);
 
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,26 +10,56 @@
     background-attachment: fixed;
     /* background-color: #D5C5DB; */
 }
+.homepage-boxes {
+    height: 30px;
+}
+.box {
+    background-color: #7D5692;
+    border-radius: 30px;
+    padding: 30px 40px 30px 40px;
+    border: solid 3px white;
+}
+.box-title {
+    font-family: Optima;
+    font-weight: bold;
+    font-size: 40px;
+}
+.box-paragraph {
+    font-family: Optima;
+    font-size: 17px;
+}
+#link-btn {
+    margin: 10px auto;
+    color: white;
+    background-color: #DC5F53;
+    border-style: solid;
+    border-color: #DC5F53;
+}
+#link-btn:hover {
+    border: solid 2px white;
+}
 
 /* Title */
 #title {
-    margin: 100px 0px 100px 0px;
-    font-family: cursive;
+    margin: 100px 0px 15px 0px;
+    /* font-family: cursive; */
+    font-family: 'Times New Roman';
     font-weight: bold;
-    font-size: 150px;
+    /* font-size: 150px; */
+    font-size: 100px;
     text-align: center;
 }
 
 /* Mottos */
 #flower-motto {
-    margin: 50px 0px 20px 0px;
+    margin: 0px 0px 20px 0px;
     font-family: cursive;
     font-weight: bold;
     font-size: 45px;
     text-align: center;
 }
 #flower-divider {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     width: 100%;
 }
 .motto1-bg {
@@ -73,6 +104,7 @@
     background-color: #7D5692;
     padding-bottom: 100px;
 }
+
 #upcoming-programs {
     font-family: Optima;
     font-weight: bold;
@@ -99,14 +131,14 @@
 .program2-bg {
     background-color: #A492AE;
 }
-.program-date {
+.prog-date {
     font-family: Optima;
     font-weight: bold;
     font-size: 50px;
     text-align: center;
     margin-top: 30px;
 }
-.program-title {
+.prog-title {
     margin: 40px 0px 0px 20px;
     font-family: Optima;
     font-weight: bold;
@@ -116,4 +148,27 @@
     width: 30px;
     margin-left: 90%;
     margin-bottom: 35px;
+}
+
+#upcoming-box {
+    background-color: #967EA3;
+    border-radius: 10px;
+    border: solid 1px white;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    cursor: pointer;
+    position: relative;
+    color: white
+}
+#upcoming-box:hover {
+    background-color: white;
+    color: #967EA3;
+}
+.program-title {
+    font-family: Optima;
+    font-size: 25px;
+}
+.program-date {
+    font-family: Optima;
+    font-size: 20px;
 }
