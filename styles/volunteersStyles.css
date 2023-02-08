@@ -7,21 +7,6 @@
     background-attachment: fixed;
 }
 
-/* Titles */
-#sub-title {
-    font-family: Optima;
-    font-weight: bold;
-    font-size: 35px;
-    margin: 5% 0px 30px 0px;
-    color: #4A4C70;
-    text-align: center;
-}
-
-/* Main Background */
-.main-bg {
-    background-color: #D5C5DB;
-}
-
 /* Volunteers */
 .name {
     font-family: Arial, Helvetica, sans-serif;
@@ -67,14 +52,4 @@
 .box-paragraph {
     font-family: Optima;
     font-size: 17px;
-}
-#link-btn {
-    margin: 10px auto;
-    color: white;
-    background-color: #DC5F53;
-    border-style: solid;
-    border-color: #DC5F53;
-}
-#link-btn:hover {
-    border: solid 2px white;
 }
